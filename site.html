@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaCs Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#main">Main</a></li>
+                <li><a href="#past-projects">Past Projects</a></li>
+                <li><a href="#specializations">Specializations</a></li>
+                <li><a href="#about-us-contact">About Us - Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="macs-media-logo.png" alt="MaCs Media logo">
+        </div>
+    </header>
+
+    <!-- Gradient Background -->
+    <section id="main" style="background: linear-gradient(to bottom, #6c5ce7, #ff9900); height: 100vh;">
+        <!-- Content -->
+        <h1>MaCs Media</h1>
+        <p>We specialize in email marketing, social media marketing, and professional product photography.</p>
+
+        <!-- About Us Section -->
+        <section id="about-us-contact">
+            <h2>About Us - Contact</h2>
+            <div class="founders">
+                <h3>Meet the Founders:</h3>
+                <ul>
+                    <li>
+                        <img src="founder-1.jpg" alt="Founder 1">
+                        <p><strong>{{ founderName1 }}</strong></p>
+                        <a href="{{ founderLinkedIn1 }}">LinkedIn</a>
+                        <a href="mailto:{{ founderEmail1 }}">{{ founderEmail1 }}</a>
+                    </li>
+                    <li>
+                        <img src="founder-2.jpg" alt="Founder 2">
+                        <p><strong>{{ founderName2 }}</strong></p>
+                        <a href="{{ founderLinkedIn2 }}">LinkedIn</a>
+                        <a href="mailto:{{ founderEmail2 }}">{{ founderEmail2 }}</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Slogan -->
+            <h3>Our Motto:</h3>
+            <p>"Empowering Your Brand, One Message at a Time."</p>
+        </section>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <nav>
+            <ul>
+                <li><a href="#main">Back to Top</a></li>
+                <li>Email: <a href="mailto:maccsmedia@example.com">maccsmedia@example.com</a></li>
+                <li>Phone: 555-1234</li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
